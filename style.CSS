@@ -85,13 +85,14 @@ img{
   width:40%;
 }
 footer{
-  margin-left:20px;
-  border:1px solid #4F7CFF;
-  padding-left:15px;
+  margin-top:40px;
+  text-align:center;
+  opacity:0.8;
+  padding-left:12px 0;
   font-family:Orbitron,sans-serif;
   color:#A5ADC6;
-  box-shadow: 0 0 15px rgba(79,124,255,0.3);
-  box-sizing:border-box;
+  font-size:0.7rem;
+  border-top:1px solid rgba(79,124,255,0.4);
   border-radius:13px;
 }
 .quests {
@@ -103,4 +104,31 @@ footer{
   color: #4F7CFF;
   margin-bottom: 15px;
 }
+.quest-list{
+  list-style:none;
+  padding:0px;
+  margin:0;
 
+}
+.quest {
+  padding:12px,14px;
+  margin-bottom:8px;
+  background-color:#0B0F1A;
+  border:1px solid rgba(255,255,255,0.05);
+  border-radius:8px;
+  font-size:0.9rem;
+  position:relative;
+}
+.quest.discipline
+{
+  border-left:3px solid #4F7CFF;
+  
+}
+.quest.study
+{
+  border-left:3px solid #00BFFF;
+}
+.quest.physical
+{
+  border-left:3px solid #00FF9C;
+}
